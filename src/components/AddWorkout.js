@@ -8,7 +8,7 @@ export default function AddProduct({ fetchData }) {
 	const { user } = useContext(UserContext);
 	const [ name, setName ] = useState("");
 	const [ duration, setDuration ] = useState("");
-	const [ isActive, setIsActive ] = useState(false);
+	const [ isActive, setIsActive ] = useState(false);    
 	const [show, setShow] = useState(false);
 
 
